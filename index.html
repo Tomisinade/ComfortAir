@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ComfortAir</title>
+
+    <!-- css stylesheet -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- google-fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&family=Rajdhani&family=Sedgwick+Ave+Display&family=Playfair+Display+SC&display=swap" rel="stylesheet">
+
+    <!-- font awesome scripts (for icons) -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <!-- bootstrap scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    <!-- Style -->
+    <style media="screen">
+      div.card-family-textbox,div.card-personal-textbox,div.card-business-textbox {
+        margin: 30px;
+        background-color: #ffffff;
+        opacity: 0.55;
+      }
+
+      div.card-family-textbox,div.card-personal-textbox,div.card-business-textbox p {
+        margin: 3%;
+        font-weight: bold;
+        color:#000000;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="top-section">
+      <div class="container-fluid">
+
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="">ComfortAir</a>
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#ticket-section">Tickets</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#track-luggage-section">Track Luggage</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#special-offer-section">Special Offers</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#blog-section">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#footer">Contacts</a>
+            </li>
+        </ul>
+     </div>
+    </nav>
+
+
+    <!-- Title -->
+
+    <div class="row">
+      <div class="col-lg-6">
+        <h2 class="title-text"><i>taking your comfort to the skies...</i>.</h2>
+      </div>
+    <div class="col-lg-6">
+    </div>
+
+    </div>
+      </div>
+    </section>
+
+    <!-- Ticket -->
+    <section id="ticket-section">
+      <div class="ticket">
+          <h2 class="ticket-heading">A Plan for Everyone's Needs</h2>
+          <p class="ticket-subheading">Simple and affordable price plans that covers every Flight need.</p>
+        <div class="row">
+          <div class="card-col col-lg-3 col-md-6">
+          <div class="card-family">
+            <div class="card-family-textbox">
+              <p><div class="header">
+                <h3 class="card-name">Family</h3>
+                  <div class="body">
+                  <h2 class="card-heading ticket-card-heading">40% off</h2>
+                  <p class="card-text">3 people minimum</p>
+                  <p class="card-text">6 people maximum</p>
+                  <p class="card-text">Valid on every Ticket</p>
+                  </div>
+              </div></p>
+              </div>
+            <button type="button" class="btn btn-primary btn-block btn-lg">Plan for Family & Friends</button>
+            </div>
+          </div>
+
+          <div class="card-col col-lg-3 col-md-6">
+          <div class="card-personal">
+            <div class="card-personal-textbox">
+            <p><div class="header">
+                <h3 class="card-name">Personal</h3>
+                <div class="body">
+                  <h2 class="card-heading ticket-card-heading">20% off</h2>
+                  <p class="card-text">1 person minimum</p>
+                  <p class="card-text">1 person can be included</p>
+                  <p class="card-text">Valid on every Ticket</p>
+                </div>
+              </div></p>
+            </div>
+            <button type="button" class="btn btn-primary btn-block btn-lg">A Plan just for You</button>
+            </div>
+          </div>
+          <div class="card-col col-lg-3 col-md-6">
+          <div class="card-business">
+            <div class="card-business-textbox">
+            <p><div class="header">
+                <h3 class="card-name">Business</h3>
+                <div class="body">
+                  <h2 class="card-heading ticket-card-heading">20% off/ mo</h2>
+                  <p class="card-text">Priority Listing</p>
+                  <p class="card-text">3 people minimum</p>
+                  <p class="card-text">7 people maximum</p>
+                  <p class="card-text">Valid on all tickets throughout the month</p>
+                </div>
+                </div></p>
+            </div>
+            <button type="button" class="btn btn-primary btn-block btn-lg">Business / Job plan</button>
+            </div>
+          </div>
+          <div class="ticket-button card-col col-lg-3 col-md-6">
+             <a href="Ticket.html"><button type="button" class="btn btn-success btn-lg download-button">Book Flight📖</button></a>
+          </div>
+        </div>
+        </div>
+        </section>
+
+        <!-- Track Luggage -->
+        <section id="track-luggage-section">
+          <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <img src="images/track luggage.jpg" class="track-luggage-image" alt="luggages">
+                </div>
+                <div class="col-lg-12 col-md-12">
+                  <div class="">
+                    <a href="Track luggage.html"><button type="button" class="btn btn-success btn-lg track-luggage-button">Track your bags🎒</button></a>
+                  </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Special Offer -->
+        <section id="special-offer-section">
+          <h2 class="special-offer-heading">This summer, take your loved ones somewhere sunny and fun⛵⛅🌊</h2>
+          <div id="special-offer-carousel" class="carousel slide" data-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+          <div class="row">
+            <div class="card-col col-lg-4 col-md-6">
+              <div class="card">
+                <div class="header">
+                  <h3 class="card-name">Paris</h3>
+                  <div class="body">
+                  <h2 class="card-heading">$994.99</h2>
+                  <img src="images/paris.jpeg" class="card-image" height="400px" width="300px" alt="Paris image">
+                  <button type="button" class="btn btn-success btn-block btn-lg">Sign Up</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-col col-lg-4 col-md-6">
+              <div class="card">
+                <div class="header">
+                  <h3 class="card-name">Maui</h3>
+                  <div class="body">
+                  <h2 class="card-heading">$1499.99</h2>
+                  <img src="images/Maui.jpeg" class="card-image" height="400px" width="300px" alt="Maui image">
+                  <button type="button" class="btn btn-success btn-block btn-lg">Sign Up</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-col col-lg-4 col-md-6">
+              <div class="card">
+                <div class="header">
+                  <h3 class="card-name">London</h3>
+                  <div class="body">
+                  <h2 class="card-heading">$839.99</h2>
+                  <img src="images/London.jpeg" class="card-image" height="400px" width="300px" alt="London image">
+                  <button type="button" class="btn btn-success btn-block btn-lg">Sign Up</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="card-col col-lg-4 col-md-6">
+                <div class="card">
+                  <div class="header">
+                    <h3 class="card-name">Rome</h3>
+                    <div class="body">
+                    <h2 class="card-heading">$469.99</h2>
+                    <img src="images/Rome.jpeg" class="card-image" height="400px" width="300px" alt="Rome image">
+                    <button type="button" class="btn btn-success btn-block btn-lg">Sign Up</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-col col-lg-4 col-md-6">
+                <div class="card">
+                  <div class="header">
+                    <h3 class="card-name">Tokyo</h3>
+                    <div class="body">
+                    <h2 class="card-heading">$859.99</h2>
+                    <img src="images/Tokyo.jpeg" class="card-image" height="400px" width="300px" alt="Tokyo image">
+                    <button type="button" class="btn btn-success btn-block btn-lg">Sign Up</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-col col-lg-4 col-md-6">
+                <div class="card">
+                  <div class="header">
+                    <h3 class="card-name">Bora Bora</h3>
+                    <div class="body">
+                    <h2 class="card-heading">$849.99</h2>
+                    <img src="images/bora bora.jpeg" class="card-image" height="400px" width="300px" alt="Bora Bora image">
+                    <button type="button" class="btn btn-success btn-block btn-lg">Sign Up</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="card-col col-lg-4 col-md-6">
+                <div class="card">
+                  <div class="header">
+                    <h3 class="card-name">Amsterdam</h3>
+                    <div class="body">
+                    <h2 class="card-heading">$999.99</h2>
+                    <img src="images/Amsterdam.jpeg" class="card-image" height="400px" width="300px" alt="Amsterdam image">
+                    <button type="button" class="btn btn-success btn-block btn-lg">Sign Up</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-col col-lg-4 col-md-6">
+                <div class="card">
+                  <div class="header">
+                    <h3 class="card-name">Maldives</h3>
+                    <div class="body">
+                    <h2 class="card-heading">$799.99</h2>
+                    <img src="images/Maldives.jpeg" class="card-image" height="400px" width="300px" alt="Maldives image">
+                    <button type="button" class="btn btn-success btn-block btn-lg">Sign Up</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-col col-lg-4 col-md-6">
+                <div class="card">
+                  <div class="header">
+                    <h3 class="card-name">Barcelona</h3>
+                    <div class="body">
+                    <h2 class="card-heading">$1499.99</h2>
+                    <img src="images/Barcelona.jpeg" class="card-image" height="400px" width="300px" alt="Barcelona image">
+                    <button type="button" class="btn btn-success btn-block btn-lg">Sign Up</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          <a class="carousel-control-prev" href="#special-offer-carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a  class="carousel-control-next" href="#special-offer-carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+          </a>
+          </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section id="testimonial-section">
+          <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+              <h2 class="testimonial-text">"Traveling from Nigeria was always difficult but since i joined the Comfortair family, It has been smooth sailing all round"</h2>
+              <img class="testimonial-image" src="images/black man image.jpg" alt="dog-profile">
+              <em>Femi, Lagos</em>
+            </div>
+            <div class="carousel-item">
+              <h2 class="testimonial-text">"Travelling,though i loved it when i was younger, was always vey stressful and tasking for me, but since i started using Comfortair, it has rekindled my old love for it"</h2>
+              <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+              <em>Beverly, Illinois</em>
+            </div>
+            <div class="carousel-item">
+              <h2 class="testimonial-text">"I can now visit my cousins in Ireland on my own without my Mom following me cause the Air hostess takes really good care of me".Cool.</h2>
+              <img class="testimonial-image" src="images/headset boy image.png" alt="lady-profile">
+              <em>Dave, Newyork</em>
+            </div>
+            <div class="carousel-item">
+              <h2 class="testimonial-text">"Flying with my kids can't get easier than with ComfortAir".</h2>
+              <img class="testimonial-image" src="images/flower image.avif" alt="lady-profile">
+              <em>Helen, Paris</em>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a  class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+          </div>
+        </section>
+
+        <!-- Blog -->
+        <section id="blog-section">
+          <div class="About-us">
+            <h2>ABOUT US</h2>
+          <h4> We are a private airline company that has been running and satisfying customers for 23years  straight.
+            Our core values are Comfort of not just the body but also the mind. We prioritise the comfort of our customers and
+            the security and wellbeing that comes with it in getting you from one point one the globe to another.</h4>
+          </div>
+          <br><h2 class="Ratings-header">RATINGS</h2>
+          <div class="Ratings">
+            <ul>
+              <li><h2> COMFORT:★★★★★</h2></li>
+              <li><h2> FLEXIBILITY:★★★☆☆</h2></li>
+              <li><h2> SAFETY:★★★★☆</h2></li>
+              <li><h2> WELFARE:★★★★☆</h2></li>
+            </ul>
+          </div>
+        </section>
+        <!-- Call to Action -->
+        <section id="cta-section">
+          <h3 class="cta-text">Get our Mobile Phone App on Play Store or Ios Store.</h3>
+          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"> </i> Download</button>
+          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-google-play"> </i> Download</button>
+        </section>
+
+        <!-- Contacts -->
+      <footer id="footer">
+        <div>
+          <a class="footer-link" href="http://aviationmedia.com/"><i class="footer-icon fas fa-paper-plane"></i></a>
+          <a class="footer-link" href="https://instagram.com"><i class="footer-icon fab fa-instagram"></i></a>
+          <a class="footer-link" href="https://twitter.com/"><i class="footer-icon fab fa-twitter"></i></a>
+          <a class="footer-link" href="http://facebook.com/"><i class="footer-icon fab fa-facebook-f"></i></a>
+          <a class="footer-link" href="mailto:tomisinadebayo7@gmail.com"><i class="footer-icon fas fa-envelope"></i></a>
+          <a class="footer-link" href="http://pinterest.com/"><i class="footer-icon fab fa-pinterest"></i></a>
+          <a class="footer-link" href="https://greenearthplan.org/"><i class="footer-icon fas fa-leaf"></i></a>
+          <a class="footer-link" href="https://avianex.com/"><i class="footer-icon fab fa-avianex"></i></a>
+          <a class="footer-link" href="https://unicef.org/"><i class="footer-icon fas fa-globe"></i></a><br><br>
+          <p class="footer-text">For more information, Please contact: Phone no: +23167-32373-2468,  +23167-32382-2571.  Lagos, West Africa</p>
+          <p class="footer-text"><span>&copy;</span> 2023 Tomisin Adebayo</p>
+        </div>
+      </footer>
+  </body>
+</html>

@@ -1,0 +1,234 @@
+body {
+  margin: 0;
+  font-family:  serif;'Rajdhani',
+  font-size: 1.2em;
+  /* background-color:#A9D3FB;#cee0f1; */
+  text-align: center;
+}
+
+h1{
+  font-family: 'Playfair Display SC', serif;
+}
+  h2 {
+  font-family:serif; 'Sedgwick Ave Display', cursive;
+  font-size: 2rem;
+  font-weight: 900;
+}
+a {
+  font-family:serif; 'Sedgwick Ave Display', cursive;
+  color:black;#02632ade;
+}
+/* Top section */
+#top-section {
+  text-align: center;
+  background-image: url("../images/airplane.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 3px;
+  padding-bottom:480px;
+}
+/* Navbar */
+.navbar {
+  padding: 0 0 4rem 5rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.navbar-brand{
+  font-family: 'Playfair Display SC', serif;
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+/* Title */
+.title-text{
+  font-family:'Rajdhani', cursive;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color:#464757;
+}
+/* Download buttons */
+.download-button {
+  margin: 8% 3% 5% 0;
+}
+  /*Ticket */
+  .ticket{
+    padding:70px 50px 50px 50px;
+    background-color:#a1a7aab0;#67696a;
+    color: black;
+  }
+  .ticket-heading{
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: bold;
+}
+.ticket-subheading{
+  font-size: 1.5rem;
+}
+  /* Ticket cards */
+  .card{
+    background-color:#1f20219e;
+  }
+  .card-image{
+    padding: 3% 0;
+  }
+  .card-name{
+  font-size: 2.0rem;
+  font-weight: bold;
+  color: white;
+  }
+  .card-col{
+  padding: 3% 2%;
+}
+  .card-text{
+    font-size: 1.5rem;
+    font-weight:bold;
+  }
+  .card-heading{
+    font-size: 2rem;
+    margin: 0 5% 0;
+    line-height: 1.2;
+    font-weight: bold;
+    background-color:#23ee51;
+    color: #836161;
+  }
+  .ticket-card-heading{
+    color: black;
+    font-size: 2.0rem;
+  }
+  .card-family{
+    background-image: url("../images/family ticket.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .card-personal{
+    background-image: url("../images/personal ticket.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .card-business{
+    background-image: url("../images/business ticket.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  /* Ticket Page */
+  .ticket-form{
+    background-color:#a1a7aab0;
+    text-align: left;
+    font-size: 1.5rem;
+    padding: 2%;
+    font-weight: bold;
+    font-family: monospace;
+    line-height: 1.5;
+  }
+  .ticket-form-heading{
+    text-align: center;
+    text-decoration: underline;
+  }
+  /* Track Luggage */
+  #track-luggage-section{
+  padding:50px 0 50px;
+  background-color:#1f20219e;
+}
+.track-luggage-image{
+  padding:50px 0 50px;
+}
+/* Track Luggage Page */
+.track-luggage-page{
+  background-color:#a1a7aab0;
+  text-align: center;
+}
+.track-luggage-header{
+  font-family:'Playfair Display SC', serif;
+  background-color: #1334c5cc;
+  font-size: 3.5rem;
+  line-height: 2;
+  font-weight: bold;
+  color: white;
+  padding: 4%;
+}
+.track-luggage-top{
+  background-color: #ef8172;
+  padding: 50px 0 50px;
+}
+.track-luggage-middle{
+  background-color: #1f2021;
+  color:white;
+  padding: 50px 0 50px;
+}
+.track-luggage-bottom{
+  background-color: #ef8172;
+  padding: 50px 0 10px;
+}
+.track-image{
+  padding: 20px 0 5px;
+}
+/* Special Offer */
+#special-offer-section{
+  background-color: #4e62a6a6;#ff4c68;
+  padding: 3% 0 0;
+}
+.special-offer-heading{
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: bold;
+}
+.carousel-item{
+    padding:7% 15%;
+}
+/* Testimonial */
+  #testimonial-section{
+    background-color:#1f20219e;
+    color: white;
+  }
+  .testimonial-image{
+  border-radius: 100%;
+  margin: 10px;
+  width: 20%;
+  }
+  .testimonial-text{
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: bold;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+  /* Blog */
+  #blog-section{
+    text-align:left;
+    background-color:#67696a69;
+    padding: 7% 18%;
+  }
+  /* Ratings */
+.Ratings-header{
+  text-decoration: underline;
+  padding: 0 2%;
+}
+  /*Call to Action*/
+#cta-section {
+  padding: 7% 5% 5% 5%;
+  background-color: #ff4c68;
+}
+.cta-text{
+  font-size: 3rem;
+  font-weight: bold;
+}
+.cta-button{
+  margin: 3% 2% 3% 0;
+}
+/* Contacts */
+footer{
+ background-color:#427D9D; #52a2ef;
+ padding: 5% 0 2%;
+}
+.footer-text{
+  font-size: 20px;
+  text-align: center;
+}
+.footer-icon{
+    margin: 0 1% 1%;
+}
