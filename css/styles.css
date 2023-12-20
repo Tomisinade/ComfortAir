@@ -41,7 +41,7 @@ a {
 }
 /* Title */
 .title-text{
-  font-family:'Rajdhani', cursive;
+  font-family: 'Rajdhani', cursive;
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
@@ -49,7 +49,7 @@ a {
 }
 /* Download buttons */
 .download-button {
-  margin: 8% 3% 5% 0;
+  margin: 3% 3% 5% 0;
 }
   /*Ticket */
   .ticket{
@@ -149,6 +149,7 @@ a {
   font-weight: bold;
   color: white;
   padding: 4%;
+
 }
 .track-luggage-top{
   background-color: #ef8172;
@@ -212,6 +213,7 @@ a {
 #cta-section {
   padding: 7% 5% 5% 5%;
   background-color: #ff4c68;
+  text-align: center;
 }
 .cta-text{
   font-size: 3rem;
@@ -231,4 +233,46 @@ footer{
 }
 .footer-icon{
     margin: 0 1% 1%;
+}
+/* SEARCH FOR BAG */
+.search-sec{
+    padding: 2rem;
+}
+.search-slt{
+    display: block;
+    width: 100%;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}
+.wrn-btn{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}
+@media (min-width: 992px){
+    .search-sec{
+        position: relative;
+        top: -114px;
+        background: rgba(26, 70, 104, 0.51);
+    }
+}
+
+@media (max-width: 992px){
+    .search-sec{
+        background: #1A4668;
+    }
+}
+@media (min-width: 992px){
+    .search-sec{
+      margin-top: 110px;
+    }
 }
