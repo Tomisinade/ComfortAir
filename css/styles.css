@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family:  serif;'Rajdhani',
   font-size: 1.2em;
-  /* background-color:#A9D3FB;#cee0f1; */
+  background-color:#a1a7aab0;
   text-align: center;
 }
 
@@ -18,15 +18,23 @@ a {
   font-family:serif; 'Sedgwick Ave Display', cursive;
   color:black;#02632ade;
 }
+hr{
+  width: 5%;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  border-color: #494949;
+
+}
 /* Top section */
 #top-section {
   text-align: center;
-  background-image: url("../images/airplane.jpg");
+  background-image: url("../images/airplane(1).jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   padding-top: 3px;
-  padding-bottom:480px;
+  padding-bottom:980px;
 }
 /* Navbar */
 .navbar {
@@ -83,6 +91,7 @@ a {
   .card-text{
     font-size: 1.5rem;
     font-weight:bold;
+    text-align: left;
   }
   .card-heading{
     font-size: 2rem;
@@ -131,7 +140,7 @@ a {
   /* Track Luggage */
   #track-luggage-section{
   padding:50px 0 50px;
-  background-color:#1f20219e;
+  background-color:#a1a7aab0;
 }
 .track-luggage-image{
   padding:50px 0 50px;
@@ -201,7 +210,7 @@ a {
   /* Blog */
   #blog-section{
     text-align:left;
-    background-color:#67696a69;
+    background-color:#a1a7aab0;
     padding: 7% 18%;
   }
   /* Ratings */
@@ -212,7 +221,8 @@ a {
   /*Call to Action*/
 #cta-section {
   padding: 7% 5% 5% 5%;
-  background-color: #ff4c68;
+  background-color:#4e62a6a6;
+  color: black;
   text-align: center;
 }
 .cta-text{
@@ -224,7 +234,7 @@ a {
 }
 /* Contacts */
 footer{
- background-color:#427D9D; #52a2ef;
+ background-color:#505152ed;
  padding: 5% 0 2%;
 }
 .footer-text{
